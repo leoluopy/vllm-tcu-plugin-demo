@@ -1,1 +1,4 @@
 .idea
+torch_tcu/build
+torch_tcu/torch_tcu.egg-info
+torch_tcu/ops_unit_tests/__pycache__/
