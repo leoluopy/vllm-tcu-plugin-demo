@@ -43,6 +43,14 @@ python ut_load_callbackend_modelR50.py
  ```
 
 ```python
+python setup.py install 
+```
+
+```
+5. run vllm-tcu unit test , NOTE: make sure change the config of your LLM
+```
+
+```python
 python test_plugins.py 
 
 expected output:
