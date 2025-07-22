@@ -38,3 +38,21 @@ python ut_Attension_newBackEnd.py
 python ut_load_callbackend_modelR50.py
 ```
 
+ ```
+4. install vllm-tcu 
+ ```
+
+```python
+python test_plugins.py 
+
+expected output:
+🔄 注册自定义模型
+通用插件 register_custom_models 返回: ['tcu-llama', 'tcu-gpt']
+✅ 已注册 TCU Platform 平台插件
+平台插件 register_platform_plugins 返回: vllm_tcu.platform.TCUPlatform
+
+
+python ut_single_vllm_layer_tcu_2token.py
+expected output:
+see log.txt in main repo directory 
+```
