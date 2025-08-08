@@ -39,11 +39,14 @@ python ut_load_callbackend_modelR50.py
 ```
 
  ```
-4. install vllm-tcu 
+4. install vllm-tcu  (using develop mode ) 
  ```
 
 ```python
-python setup.py install 
+pip install vllm==0.8.5  -i https://pypi.doubanio.com/simple/
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+
+python setup.py develop 
 ```
 
 ```
